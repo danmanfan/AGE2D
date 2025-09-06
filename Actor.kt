@@ -6,10 +6,14 @@ This is an actor class.
 
 */
 
-
-private var collision: Boolean = false
+open class Actor() {
+open var collision: Boolean = false
   get() = field
   set(value) {
     // if no overlap 
     field = value
   }
+
+}
+
+
